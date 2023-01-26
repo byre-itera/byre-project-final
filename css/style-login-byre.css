@@ -367,7 +367,19 @@ button {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #35bff8;
+    background: #282a2b;
+}
+
+#sidebar ul li.remove>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #282a2b;
+}
+
+#sidebar ul li.logout>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #9e41b6;
 }
 
 a[data-toggle="collapse"] {

@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- fevicon -->
     <link rel="icon" href="images/logo.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -52,10 +54,7 @@
                     <i class="fa fa-arrow-left"></i>
                 </div>
                 <ul class="list-unstyled components">
-                    <div style="text-align:center">
-                        <img src="images/logo.png" alt="Logo">
-                    </div>
-                    <li><a href="#active">Home</a> </li>
+                    <li class="active"> <a href="#">Home</a> </li>
                     <li><a href="#about">Produk Kami </a> </li>
                     <li><a href="#work">Cara Kerja</a> </li>
                     <li><a href="#contact">Hubungi Kami </a> </li>
@@ -66,7 +65,7 @@
             <!-- header -->
             <header>
                 <!-- header inner -->
-                <div id="active" class="header">
+                <div class="header">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
@@ -82,9 +81,10 @@
                                 <ul class="btn">
                                     <li class="down_btn"><a href="laman_login.php">Masuk</a></li>
                                     <li class="slide_btn"><a href="registrasi.php">Daftar</a></li>
+                                    <li class="search_btn"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                                     <li><button type="button" id="sidebarCollapse">
-                                    <img src="images/menu_icon.png" alt="#" />
-                                    </button>
+                              <img src="images/menu_icon.png" alt="#" />
+                              </button>
                                     </li>
                                 </ul>
                             </div>
